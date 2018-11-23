@@ -1,9 +1,18 @@
 
 module.exports = {
   mode: 'development',
+  resolve: {
+    extensions: ['.ts'],
+    modules: ['./src']
+  },
   module: {
     rules: [
-      { test: /\.ts$/, use: 'ts-loader' }
+      { 
+        test: /\.ts$/, 
+        use: {
+          loader: 'ts-loader'
+        } 
+      }
     ]
   }
 }

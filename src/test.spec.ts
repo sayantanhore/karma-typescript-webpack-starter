@@ -1,5 +1,7 @@
+import { TEST } from './test';
+
 describe('test', () => {
   it('passes', () => {
-    expect(1).toEqual(1);
+    expect(TEST).toEqual('test');
   });
 });
