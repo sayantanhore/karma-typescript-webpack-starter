@@ -1,5 +1,5 @@
 {
-  "name": "webrtc",
+  "name": "karma-typescript-webpack-starter",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
